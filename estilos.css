@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Serif&family=Oswald&family=Staatliches&display=swap');
+
+:root {
+  --cor-titulo: rgb(9, 162, 173);
+  --cor-parágrafo: #000000;
+  --cor-link: #ffffff;
+  --cor-h2: #1900ff;
+  --fonte: 'Kaushan Script';
+  --fonte-h1: 'Staatliches';
+  --fonte-p: 'Oswald';
+  --fonte-link: 'Noto Serif';
+}
+
+.linha{
+  width: 100%;
+}
+
+.coluna-33 {
+  width: 33%;
+  float: left;
+}
+
+body {
+  background-image: linear-gradient(to left,#0014F5,#FA6F00);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  font-family: var(--fonte);
+  width: 1140px;
+  max-width: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: var(--cor-titulo);
+  font-family: var(--fonte-h1);
+  font-size: 2em;
+  height: 50px;
+  background-image: linear-gradient(to left,#FA6F00,#FA6F00);
+}
+
+h2 {
+  color: var(--cor-h2);
+  font-family: var(--fonte-h1);
+  font-size: 2em;
+  height: 50px;
+  background-image: linear-gradient(to left,#FA6F00,#FA6F00);
+}
+
+p {
+  color: var(--cor-parágrafo);
+  font-family: var(--fonte-p);
+}
+
+ul li {
+  color: var(--cor-link);
+  font-family: var(--fonte-link);
+  font-size: 1em;
+  height: auto;
+}
+ul li a {
+  color: #750000;
+  font-family: var(--fonte-link);
+  font-size: 1em;
+  background-image: linear-gradient(to left,#000000,#000000);
+}
